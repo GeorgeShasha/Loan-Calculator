@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: cyan;
+}
+
+.container {
+  background: darkcyan;
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container h1 {
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+  font-size: 16px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.monthlyPayment {
+  font-size: 20px;
+  font-weight: 600;
+}
